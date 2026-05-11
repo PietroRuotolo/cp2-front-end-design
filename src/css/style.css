@@ -7,9 +7,42 @@
     --color6:#FF0000;
     --color7:#00FF00;
     --color8:#0000FF;
+    --fontFamily1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fontFamily2: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--color1);
+}
+
+header{
+    background-color: var(--color5);
+    color: var(--color1);
+    padding: 2%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#Bjapa{
+    font-family: var(--fontFamily1);
+    font-size: 60px; 
+}
+#destaqueBjapa{
+    color: var(--color6);
+}
+#heroSection{
+    background-image: url("../assets/variedade-de-comidas-japonesas.png");
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    color: var(--color1);
+    font-size: 50px;
+    font-family: var(--fontFamily2);
 }
