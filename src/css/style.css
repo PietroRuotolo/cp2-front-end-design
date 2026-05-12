@@ -78,4 +78,29 @@ header{
 .textoDirecionameto:hover{
     color: var(--color6);
 }
+
+ /*SOBRE*/
+
+ #tituloSobre{
+    font-family: var(--fontFamily1);
+ }
+ #destaqueTituloSobre{
+    color: var(--color6);
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+ }
+ .caixaTexto{
+    font-family: var(--fontFamily1);
+    text-indent: 5%;
+    text-align: justify;
+    margin: 60px;
+    padding: 20px;
+    border: solid, 4px;
+    border-radius: 20px;
+    width: 700px;
+ }
+
+
  
