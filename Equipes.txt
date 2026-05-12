@@ -6,3 +6,5 @@ Nome:Leonardo Scalisse Silva    Rm:569114
 Nome:Valdemar Neto              Rm:573382
 Nome:Pietro Schimidt Ruotolo    Rm:570632
 Nome:Danilo                     Rm:573831
+
+Link GitHub pages: https://pietroruotolo.github.io/cp2-front-end-design/
