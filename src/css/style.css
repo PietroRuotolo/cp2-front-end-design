@@ -1,12 +1,12 @@
 :root{
     --color1:#f0f0f0;
-    --color8:#bfbfc9;
-    --color2:#333;
-    --color3:#555;
+    --color2:#bfbfc9;
+    --color3:#333;
     --color4:#3ae4b1;
     --color5:#000000;
     --color6:#FF0000;
     --color7:#00FF00;
+    --color8:#867f7f;
     --fontFamily1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     --fontFamily2: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color:var(--color8);
+    background-color:var(--color2);
 }
 
 header{
@@ -53,30 +53,51 @@ header{
     padding: 60px;
 }
 
+#paginas::before{
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 3px;
+
+    background: red;
+}
+
 .pagina{
     height: 60px;
     width: 200px;
     text-align: center;
-    background-color: var(--color5);
-    border-radius: 50px;
     padding: 20px;
     list-style: none;
+}
+
+.pagina::before{
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 3px;
+
+    background: red;
 }
 .textoDirecionameto{
     text-decoration: none;
     justify-content: center;
     padding: 20%;
-    color: var(--color1);
-    font-size: 140%;
+    color: var(--color5);
+    font-size: 170%;
     font-family: var(--fontFamily2);
 }
 
-.pagina:hover{
-    transform: translateY(-10px);
-}
-
 .textoDirecionameto:hover{
-    color: var(--color6);
+    text-decoration: underline;
+    text-decoration-color: var(--color6);
 }
 
  /*SOBRE*/
@@ -84,23 +105,31 @@ header{
  #tituloSobre{
     font-family: var(--fontFamily1);
  }
+
  #destaqueTituloSobre{
     color: var(--color6);
  }
  .container{
     display: flex;
-    justify-content: center;
- }
- .caixaTexto{
+    padding: 90px;
+    margin: 50px;
     font-family: var(--fontFamily1);
+ }
+
+#subtituloSobre{
+    font-size: 50px;
+}
+ .caixaTexto{
     text-indent: 5%;
     text-align: justify;
-    margin: 60px;
-    padding: 20px;
-    border: solid, 4px;
-    border-radius: 20px;
-    width: 700px;
+    width: 800px;
+    padding: 70px;
  }
+
+ #footerSobre{
+    background-color: var(--color8);
+ }
+
 
 
  
