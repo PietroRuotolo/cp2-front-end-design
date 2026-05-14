@@ -21,6 +21,9 @@
 
 body{
     background-color:var(--color2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -30,6 +33,10 @@ header{
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+main{
+    flex: 1;
 }
 
 #Bjapa{
@@ -102,6 +109,10 @@ header{
     text-decoration-color: var(--color6);
 }
 
+.footer-nav{
+    background-color: var(--color8);
+}
+
  /*SOBRE*/
 
  #tituloSobre{
@@ -126,10 +137,6 @@ header{
     text-align: justify;
     width: 800px;
     padding: 70px;
- }
-
- #footerSobre{
-    background-color: var(--color8);
  }
 
  /* PORTIFOLIO */
@@ -191,10 +198,6 @@ header{
     border-color: var(--color10) ;
 }
 
-#footerPortifolio{
-    background-color: var(--color8);
-}
-
 /* CONTATO */
 
 .contato{
@@ -213,14 +216,23 @@ form{
 
 .footer-container{
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
     padding: 30px;
-    gap: 400px;
+    gap: 40px;
     background-color: var(--color8);
+    flex-wrap: wrap;
+}
+
+.footer-container div{
+    min-width: 200px;
 }
 
 .copyright{
-    padding: 10px;
+    padding: 15px;
     background-color: var(--color8);
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.2);
 }
 
 
